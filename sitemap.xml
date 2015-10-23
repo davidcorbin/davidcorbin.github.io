@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://daconex.me/</loc>
+        <loc>http://daconex.github.io/</loc>
         <lastmod>2015-10-23T18:57:17+00:00</lastmod>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.me/#about</loc>
+        <loc>http://daconex.github.io/#about</loc>
         <lastmod>2015-10-23T18:57:17+00:00</lastmod>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.me/#projects</loc>
+        <loc>http://daconex.github.io/#projects</loc>
         <lastmod>2015-10-23T18:57:17+00:00</lastmod>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.me/#contact</loc>
+        <loc>http://daconex.github.io/#contact</loc>
         <lastmod>2015-10-23T18:57:17+00:00</lastmod>
         <changefreq>always</changefreq>
     </url>

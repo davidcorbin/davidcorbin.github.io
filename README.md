@@ -1,2 +1,3 @@
 # daconex.github.io
-Redirect to blog
+
+The homepage of David Corbin

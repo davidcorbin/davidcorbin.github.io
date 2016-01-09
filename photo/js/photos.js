@@ -3,5 +3,5 @@
  */
 
 $(document).ready(function() {
-    alert("Hi");
+    alert(photos.title);
 });

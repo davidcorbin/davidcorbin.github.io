@@ -13,57 +13,6 @@ img {
     margin-top: 90px;
 }
 
-.no-pad {
+.photo-wrap {
     padding: 0 0;
-    overflow: hidden;
-}
-
-.bg {
-    height:200px;
-}
-
-.dark-desc {
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0);
-    opacity: 0;
-    position: absolute;
-    -o-transition: background 0.2s, opacity 0.2s;
-    -moz-transition: background 0.2s, opacity 0.2s;
-    -webkit-transition: background 0.2s, opacity 0.2s;
-    transition: background 0.2s, opacity 0.2s;
-    overflow-y: scroll;
-}
-
-/*
-.dark-desc:hover {
-    background: rgba(0,0,0,0.7);
-    opacity: 1;
-    -o-transition: background 0.2s, opacity 0.2s;
-    -moz-transition: background 0.2s, opacity 0.2s;
-    -webkit-transition: background 0.2s, opacity 0.2s;
-    transition: background 0.2s, opacity 0.2s;
-}
-*/
-
-/* Hide Scrollbar */
-.dark-desc::-webkit-scrollbar {
-    display: none;
-}
-.dark-desc {
-    -ms-overflow-style: none;
-}
-
-.dark-desc .title {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
-    margin: 0 0;
-    padding: 8px 20px;
-}
-
-.dark-desc .desc {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    margin: 0 0;
-    padding: 0 20px 12px;
 }

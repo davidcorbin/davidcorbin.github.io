@@ -49,7 +49,6 @@
     <script src="../js/jquery.js"></script>
     <script type="text/javascript" src="jquery-jplayer/jquery.jplayer.js"></script>
     <script type="text/javascript" src="ttw-music-player-min.js"></script>
-    <script type="text/javascript" src="js/myplaylist.js"></script>
     <script type="text/javascript" src="ttw-music-player.js"></script>
 
 
@@ -98,15 +97,50 @@
 
     (function() {
         var runMyCode = function($) {
-            var description = 'Soundtrack from the Original Broadway Cast';
 
-            $('#audio-cont').ttwMusicPlayer(myPlaylist, {
-                autoPlay:false,
-                description:description,
-                jPlayer:{
-                    swfPath:'jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+            // Get url get parameters
+            var $_GET = {};
+            document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+                function decode(s) {
+                    return decodeURIComponent(s.split("+").join(" "));
                 }
+                $_GET[decode(arguments[1])] = decode(arguments[2]);
             });
+
+            //alert($_GET["test"]);
+
+            if ($_GET["s"] == "PMEADO") {
+
+                var d = "<script type='text/javascript' src='js/pmeado.js'> < /script>";
+
+                $("head").append(d);
+
+                var description = 'PMEA District 1 Orchestra';
+
+                $('#audio-cont').ttwMusicPlayer(myPlaylist, {
+                    autoPlay:false,
+                    description:description,
+                    jPlayer:{
+                        swfPath:'jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                    }
+                });
+            }
+            else {
+                var d = "<script type='text/javascript' src='js/whitechristmas.js'> < /script>";
+
+                $("head").append(d);
+
+                var description = 'Soundtrack from the Original Broadway Cast';
+
+                $('#audio-cont').ttwMusicPlayer(myPlaylist, {
+                    autoPlay:false,
+                    description:description,
+                    jPlayer:{
+                        swfPath:'jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                    }
+                });
+            }
+
         };
 
         var timer = function() {

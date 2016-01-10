@@ -10,7 +10,7 @@ var myPlaylist = [
     {
         mp3:'https://onedrive.live.com/download?resid=ADB77773C67D388!22051&authkey=!AOD-qDuv23yKOww&ithint=file%2cmp3',
         title:'Allegretto (Symphony VII)',
-        artist:'',
+        artist:'Beethoven',
         rating:4,
         duration:'8:04'
     },

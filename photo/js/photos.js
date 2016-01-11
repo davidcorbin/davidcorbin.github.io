@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 		// If image is small, open it
 		if (wrap.hasClass("col-md-3")) {
-			// If an image is already large
+			// If an image is already large, close it
 			if (anim_state != "closed") {
 				closeimage(anim_state);
 			}

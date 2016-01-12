@@ -28,11 +28,29 @@ $(document).ready(function() {
 			if (anim_state != "closed") {
 				closeimage(anim_state);
 			}
+
+            if (aria == 1) {
+                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='2']");
+            }
+            if (aria == 2) {
+                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='3']");
+                $(".photo-wrap[aria-id='1']").insertBefore(".photo-wrap[aria-id='3']");
+            }
+
 			openimage(aria);
 			anim_state = aria;
 		} 
 		// If image is large, close it 
 		else if (wrap.hasClass("col-md-12")) {
+
+            if (aria == 1) {
+                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='1']");
+            }
+            if (aria == 2) {
+                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='3']");
+                $(".photo-wrap[aria-id='1']").insertBefore(".photo-wrap[aria-id='3']");
+            }
+
 			closeimage(aria);
 		} 
 

@@ -22,24 +22,13 @@ $(document).ready(function() {
 		var aria = el.attr("aria-id");
 		var wrap = $(".photo-wrap[aria-id='" + aria + "']");
 
-		// If image is small, open it
-		if (wrap.hasClass("col-md-3")) {
-			// If an image is already large, close it
-			if (anim_state != "closed") {
-				closeimage(anim_state);
-			}
-
-            if (aria == 1) {
-                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='2']");
-            }
-            if (aria == 2) {
-                $(".photo-wrap[aria-id='0']").insertBefore(".photo-wrap[aria-id='3']");
-                $(".photo-wrap[aria-id='1']").insertBefore(".photo-wrap[aria-id='3']");
-            }
-
+		// If all images are closed, open clicked image
+		if (anim_state == "closed") {
 			openimage(aria);
-			anim_state = aria;
-		} 
+			//anim_state = aria;
+		}
+
+        /*
 		// If image is large, close it 
 		else if (wrap.hasClass("col-md-12")) {
 
@@ -52,7 +41,8 @@ $(document).ready(function() {
             }
 
 			closeimage(aria);
-		} 
+		}
+		*/
 
 	});
 
@@ -60,12 +50,10 @@ $(document).ready(function() {
 
 // Function to enlarge image
 function openimage(aria) {
-	$(".photo-wrap[aria-id='" + aria + "']").removeClass("col-md-3");
-	$(".photo-wrap[aria-id='" + aria + "']").addClass("col-md-12");
+	alert("Coming soon");
 }
 
 // Function to close image
 function closeimage(aria) {
-	$(".photo-wrap[aria-id='" + aria + "']").removeClass("col-md-12");
-	$(".photo-wrap[aria-id='" + aria + "']").addClass("col-md-3");
+	alert("Coming soon");
 }

@@ -11,14 +11,15 @@ img {
 /* Move the photo container down from the top of the page */
 .photo-cont {
     margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .photo-wrap {
     padding: 0 0;
     z-index:1;
-    -webkit-box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 54px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 54px -30px rgba(0,0,0,0.75);
+    box-shadow: 0 0 54px -30px rgba(0,0,0,0.75);
 
     -webkit-transition: -webkit-box-shadow 0.1s;
     -moz-transition: -moz-box-shadow 0.2s;
@@ -27,9 +28,9 @@ img {
 }
 
 .photo-wrap:hover {
-    -webkit-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
     z-index:2;
 }
 
@@ -68,6 +69,12 @@ img {
     margin: auto;
     top: 50%;
     transform: translateY(-50%);
+    max-width:60%;
+    max-height:80%;
+
+    -webkit-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
 }
 
 .viewer-fade {

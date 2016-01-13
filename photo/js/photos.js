@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	var i = 0;
 	for (i in photos) {
-		gallery.append("<div class='col-md-3 photo-wrap' aria-id='" + i + "'><img src='" + photos[i]["tbn"] + "'></div>");
+		gallery.append("<div class='col-xs-6 col-sm-4 col-md-3 photo-wrap' aria-id='" + i + "'><img src='" + photos[i]["tbn"] + "'></div>");
 		i++;
 	}
 
@@ -53,6 +53,7 @@ function openimage(aria) {
 
 // Function to close image
 function closeimage() {
-
 	$(".viewer").removeClass("viewer-fade");
+	// Lighten viewer background
+    $(".viewer .bg").removeClass("darken");
 }

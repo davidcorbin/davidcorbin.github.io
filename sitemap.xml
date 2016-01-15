@@ -6,15 +6,15 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://daconex.github.io/</loc>
+        <loc>http://daconex.me/</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.github.io/audio</loc>
+        <loc>http://daconex.me/audio</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.github.io/photo</loc>
+        <loc>http://daconex.me/photo</loc>
         <changefreq>always</changefreq>
     </url>
 

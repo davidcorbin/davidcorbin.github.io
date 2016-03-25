@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	var i = 0;
 	for (i in photos) {
-		gallery.append("<div class='col-xs-12 col-sm-4 col-md-3 photo-wrap' aria-id='" + i + "'><img src='" + photos[i]["tbn"] + "'><div class='desc'>" + photos[i]["desc"] + "</div></div>");
+		gallery.append("<div class='col-xs-12 col-sm-6 col-md-3 col-lg-3 photo-wrap' aria-id='" + i + "'><img src='" + photos[i]["tbn"] + "'><div class='desc'>" + photos[i]["desc"] + "</div></div>");
 		i++;
 	}
 

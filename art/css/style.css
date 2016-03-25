@@ -37,10 +37,24 @@ img {
 .photo-wrap .desc {
     position: absolute;
     bottom: 0;
-    padding: 5px 10px;
+    padding: 0.5em 1em;
     font-size:0.8em;
-    font-family: Lato, sans-serif;
+    font-family: Lato, Arial, sans-serif;
     background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: bottom 0.7s, opacity 0.7s;
+    -moz-transition: bottom 0.7s, opacity 0.7s;
+    -o-transition: bottom 0.7s, opacity 0.7s;
+    transition: bottom 0.7s, opacity 0.7s;
+    opacity: 1;
+}
+
+.photo-wrap:hover > .desc {
+    -webkit-transition: bottom 0.7s, opacity 0.7s;
+    -moz-transition: bottom 0.7s, opacity 0.7s;
+    -o-transition: bottom 0.7s, opacity 0.7s;
+    transition: bottom 0.7s, opacity 0.7s;
+    bottom: -2.3em;
+    opacity: 0;
 }
 
 .viewer {

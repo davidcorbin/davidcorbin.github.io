@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Welcome",
+        "desc": "Day 019",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22554&authkey=!AMHDQ4NANz_-mUo&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!22554&authkey=!AMHDQ4NANz_-mUo&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Rocky",
         "desc": "Day 018",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22541&authkey=!AOp1alP_A0sG3Bg&v=3&ithint=photo%2cjpg",

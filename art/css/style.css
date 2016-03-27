@@ -95,3 +95,9 @@ img {
     display:block;
     z-index:3;
 }
+
+@media (max-width: 768px) {
+    .navbar-right {
+        display: none;
+    }
+}

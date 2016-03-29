@@ -6,15 +6,19 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://daconex.me/</loc>
+        <loc>https://daconex.me/</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.me/audio</loc>
+        <loc>https://daconex.me/audio</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>http://daconex.me/photo</loc>
+        <loc>https://daconex.me/photo</loc>
+        <changefreq>always</changefreq>
+    </url>
+    <url>
+        <loc>https://daconex.me/art</loc>
         <changefreq>always</changefreq>
     </url>
 

@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Glass Galaxy",
+        "desc": "Day 023",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22616&authkey=!ALgCsrrBBBAFhdA&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!22617&authkey=!AC8I2jKSktO4u-Y&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Classy",
         "desc": "Day 022",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22605&authkey=!AKUkrjui0IY6Ho8&v=3&ithint=photo%2cjpg",

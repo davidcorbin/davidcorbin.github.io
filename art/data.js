@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Pure Imagination",
+        "desc": "Day 024",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22623&authkey=!AF34YLxP8X8dUGY&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!22624&authkey=!ACByTWni9kcwhuc&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Glass Galaxy",
         "desc": "Day 023",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22616&authkey=!ALgCsrrBBBAFhdA&v=3&ithint=photo%2cjpg",

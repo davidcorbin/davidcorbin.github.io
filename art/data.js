@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "All Seeing",
+        "desc": "Day 026",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22653&authkey=!ANnbS1iZ93013fU&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!22654&authkey=!ABFuqjIOuLe_ipU&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Mine",
         "desc": "Day 025",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!22644&authkey=!AGPlluJmvEdPmA0&v=3&ithint=photo%2cjpg",

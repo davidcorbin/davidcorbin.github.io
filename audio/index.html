@@ -124,23 +124,6 @@
                 });
             }
 
-            else if ($_GET["s"] == "WC") {
-
-                var d = "<script type='text/javascript' src='js/whitechristmas.js'> < /script>";
-
-                $("head").append(d);
-
-                var description = 'PMEA District 1 Orchestra';
-
-                $('#audio-cont').ttwMusicPlayer(myPlaylist, {
-                    autoPlay:false,
-                    description:description,
-                    jPlayer:{
-                        swfPath:'jquery-jplayer' //You need to override the default swf path any time the directory structure changes
-                    }
-                });
-            }
-
             else {
                 $("#audio-cont").html("<div style='margin: 80px auto;'>This page requires a special URL. Maybe you wish to return <a href='/'>home</a>.</div>");
             }

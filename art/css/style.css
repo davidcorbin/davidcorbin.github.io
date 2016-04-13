@@ -82,6 +82,8 @@ img {
     position: relative;
     margin: auto;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     max-width:60%;
     max-height:80%;

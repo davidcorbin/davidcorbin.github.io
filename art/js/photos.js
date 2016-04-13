@@ -4,8 +4,6 @@
 
 var gallery = $(".photo-cont");
 
-var anim_state = "closed";
-
 /*
  * On page load, load images from data.js file.
  */

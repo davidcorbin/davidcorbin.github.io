@@ -96,7 +96,6 @@ img {
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    /*max-width:60%;*/
     max-height:70%;
     -webkit-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);
     -moz-box-shadow: 0 0 54px 0 rgba(0,0,0,0.75);

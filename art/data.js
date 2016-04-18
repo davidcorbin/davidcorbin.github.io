@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Beme Logo",
+        "desc": "Day 038",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23169&authkey=!AD2ogYagK3Zmj8k&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23168&authkey=!AJL1IOg1Lywm7H4&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Vexed",
         "desc": "Day 037",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23160&authkey=!AHDOGX5gDgDFiqM&v=3&ithint=photo%2cjpg",

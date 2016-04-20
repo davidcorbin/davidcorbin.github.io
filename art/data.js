@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Gem III",
+        "desc": "Day 040",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23185&authkey=!ABGlf1rS4XKqN0k&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23184&authkey=!AFmYNvuzz8nINkk&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Cluster",
         "desc": "Day 039",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23175&authkey=!AGtA4ikqCt4xpCc&v=3&ithint=photo%2cjpg",

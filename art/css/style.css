@@ -10,7 +10,6 @@ img {
 
 /* Move the photo container down from the top of the page */
 .photo-cont {
-    margin-top: 90px;
     margin-bottom: 90px;
 }
 

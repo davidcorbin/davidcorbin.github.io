@@ -8,11 +8,6 @@ img {
     max-width: 100%;
 }
 
-/* Move the photo container down from the top of the page */
-.photo-cont {
-    margin-bottom: 90px;
-}
-
 .photo-wrap {
     padding: 0 0;
     z-index:1;

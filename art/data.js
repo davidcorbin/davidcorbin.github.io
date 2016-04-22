@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Psycho Bubblegum",
+        "desc": "Day 042",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23199&authkey=!ADa6plHeboK9CAk&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23198&authkey=!AIcoBBTRQavet4Q&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Relation",
         "desc": "Day 041",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23191&authkey=!AMTfArRtoLnGEwc&v=3&ithint=photo%2cjpg",

@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Paplosion II",
+        "desc": "Day 048",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23242&authkey=!ACnAdzUolEX7fJY&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23241&authkey=!AEZ7pNLpcFrwmPo&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Paplosion",
         "desc": "Day 047",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23234&authkey=!AGgMMseNgeRRyMg&v=3&ithint=photo%2cjpg",

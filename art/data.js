@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Wisp",
+        "desc": "Day 049",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23247&authkey=!ACrOCWOsf4qZM-k&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23246&authkey=!AL-6_dKV0oQ3j3g&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Paplosion II",
         "desc": "Day 048",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23242&authkey=!ACnAdzUolEX7fJY&v=3&ithint=photo%2cjpg",

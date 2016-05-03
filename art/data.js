@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Tri",
+        "desc": "Day 052",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23287&authkey=!AGKXMIkF2O9t8CQ&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23285&authkey=!AL-M4gfgdWT9y88&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Psycho Rain",
         "desc": "Day 051",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23277&authkey=!AEjTbHna3Jcldr0&v=3&ithint=photo%2cjpg",

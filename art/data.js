@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Dax",
+        "desc": "Day 055",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23320&authkey=!APcNVBpr1qfx1P8&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23318&authkey=!AAE62uXCqXklA5k&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Covenant II",
         "desc": "Day 054",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23306&authkey=!AEL1gn8K23S2QzI&v=3&ithint=photo%2cjpg",

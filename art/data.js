@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Serenity II",
+        "desc": "Day 056",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23356&authkey=!AAPU5P5Ctn206Sw&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23357&authkey=!AGw151mu42-_MsU&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Dax",
         "desc": "Day 055",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23320&authkey=!APcNVBpr1qfx1P8&v=3&ithint=photo%2cjpg",

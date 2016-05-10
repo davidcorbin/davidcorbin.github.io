@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Deflect",
+        "desc": "Day 059",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23394&authkey=!AP-Ds6twUutm9RQ&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23387&authkey=!ANhuW7JNb23fOIQ&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Psycho Shattered",
         "desc": "Day 058",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23382&authkey=!ABx_JLJsnB9MVSw&v=3&ithint=photo%2cjpg",

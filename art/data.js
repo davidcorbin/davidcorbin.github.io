@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Pillars",
+        "desc": "Day 062",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23417&authkey=!AKZRFcONOhwWN7U&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23415&authkey=!AK8VseRsZ96VoyQ&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Quadra",
         "desc": "Day 061",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23407&authkey=!ACfv4K4CaSlfTJ4&v=3&ithint=photo%2cjpg",

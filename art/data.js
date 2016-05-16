@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Gone Mad",
+        "desc": "Day 064",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23445&authkey=!AKMun3PRXob5Wek&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23446&authkey=!AOsWqhRJCzVA-8I&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Sustain",
         "desc": "Day 063",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23432&authkey=!AAS9uAWMTO9MmQ0&v=3&ithint=photo%2cjpg",

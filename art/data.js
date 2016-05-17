@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Deflect III",
+        "desc": "Day 065",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23452&authkey=!ACjrwmWCoaIavMA&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23451&authkey=!AKrKtL5vqWx-DME&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Gone Mad",
         "desc": "Day 064",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23445&authkey=!AKMun3PRXob5Wek&v=3&ithint=photo%2cjpg",

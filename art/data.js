@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Vast",
+        "desc": "Day 068",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23481&authkey=!AMZDXeqhYOY6CM0&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23480&authkey=!APt6cQqnXykeiMY&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Controlled Descent",
         "desc": "Day 067",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23471&authkey=!APLLLzIz6OCdS8A&v=3&ithint=photo%2cjpg",

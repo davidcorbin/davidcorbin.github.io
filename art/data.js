@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Separatist",
+        "desc": "Day 070",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23521&authkey=!AIw3pzCTQ1fE-30&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23520&authkey=!ANwho3WWGFW9Gq4&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Covenant III",
         "desc": "Day 069",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23494&authkey=!AH8YwpLmFnY9UB4&v=3&ithint=photo%2cjpg",

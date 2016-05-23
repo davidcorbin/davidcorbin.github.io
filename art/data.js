@@ -6,8 +6,8 @@ var photos = [
     {
         "title": "Gravitron",
         "desc": "Day 071",
-        "src": "https://onedrive.live.com/redir?download=ADB77773C67D388!23557&authkey=!AA9R4LODsfwetn0&v=3&ithint=photo%2cjpg",
-        "tbn": "https://onedrive.live.com/redir?download=ADB77773C67D388!23556&authkey=!AJ5KsdK-Ec5DuTA&v=3&ithint=photo%2cjpg"
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23557&authkey=!AA9R4LODsfwetn0&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23556&authkey=!AJ5KsdK-Ec5DuTA&v=3&ithint=photo%2cjpg"
     },
     {
         "title": "Separatist",

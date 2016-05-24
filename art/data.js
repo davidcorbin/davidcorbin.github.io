@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Pillars II",
+        "desc": "Day 072",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23572&authkey=!AMDNqq32yDJaf1Q&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23573&authkey=!AKYVFwE-tvT2dqE&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Gravitron",
         "desc": "Day 071",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23557&authkey=!AA9R4LODsfwetn0&v=3&ithint=photo%2cjpg",

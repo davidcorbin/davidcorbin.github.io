@@ -1,5 +1,5 @@
 /**
- * Created by David Corbin on 12/20/2015.
+ * Created by David Corbin.
  */
 
 var gallery = $(".photo-cont");

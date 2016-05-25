@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Vexed II",
+        "desc": "Day 073",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23587&authkey=!AI72JEZZFci-4k8&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23588&authkey=!ABM-SpW2oPpDbsY&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Pillars II",
         "desc": "Day 072",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23572&authkey=!AMDNqq32yDJaf1Q&v=3&ithint=photo%2cjpg",

@@ -10,12 +10,12 @@ var gallery = $(".photo-cont");
 $(document).ready(function() {
 
 	var i = 0;
+
+    // Load all images from photos var
 	for (i in photos) {
 		gallery.append("<div class='col-xs-12 col-sm-6 col-md-3 col-lg-3 photo-wrap' aria-id='" + i + "'><img src='" + photos[i]["tbn"] + "'><div class='desc'>" + photos[i]["desc"] + "</div></div>");
 
-        /*
-         * If specific image is specified in url, open it
-         */
+        // If specific image is specified in url, open it
         if (getParameterByName("day")!=null && photos[i]["desc"]==="Day "+getParameterByName("day")) {
             openimage(photos.length-getParameterByName("day"));
         }
@@ -23,21 +23,22 @@ $(document).ready(function() {
 		i++;
 	}
 
+    // When user clicks on image, enlarge it
 	$(".photo-wrap").on("click", function(){
 		var el = $(this);
 		var aria = el.attr("aria-id");
 		var wrap = $(".photo-wrap[aria-id='" + aria + "']");
-
         openimage(aria);
-
 	});
 
+    // When user clicks on background, close enlarged image
     $(".bg").on("click", function(){
         closeimage();
     });
 
 });
 
+// Get HTTP GET parameter from URL
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -80,5 +81,5 @@ function closeimage() {
     $(".viewer img").attr("src", "");
 
     // Change url to main page
-    history.pushState({}, '', '/art');
+    history.pushState({}, '', '/art/');
 }

@@ -55,6 +55,10 @@ function openimage(aria) {
     for (i in photos) {
         if (i == aria) {
             link = photos[i]["src"];
+
+            // Change url to direct link to image
+            history.pushState({}, '', '/art/?day='+photos[i]["desc"].split("Day ")[1]);
+
             break;
         }
         i++;
@@ -65,6 +69,7 @@ function openimage(aria) {
     $(".viewer img").attr("src", link);
     // Darken viewer background
     $(".viewer .bg").addClass("darken");
+
 }
 
 // Function to close image
@@ -73,4 +78,7 @@ function closeimage() {
 	// Lighten viewer background
     $(".viewer .bg").removeClass("darken");
     $(".viewer img").attr("src", "");
+
+    // Change url to main page
+    history.pushState({}, '', '/art');
 }

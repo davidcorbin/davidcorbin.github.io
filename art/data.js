@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Dome",
+        "desc": "Day 078",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23628&authkey=!AG2GPlJK-m4iuCE&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23627&authkey=!AB-lHawuYI3QqXA&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Interlaced",
         "desc": "Day 077",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23616&authkey=!AKec6YXas0XafxU&v=3&ithint=photo%2cjpg",

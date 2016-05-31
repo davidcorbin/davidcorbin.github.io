@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Deflect V",
+        "desc": "Day 079",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23633&authkey=!ADWKInGmRYtE18I&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23632&authkey=!ABoTt-Nu8QlKyc8&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Dome",
         "desc": "Day 078",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23628&authkey=!AG2GPlJK-m4iuCE&v=3&ithint=photo%2cjpg",
@@ -76,7 +82,7 @@ var photos = [
         "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23469&authkey=!AK_foHxPpDI4jUQ&v=3&ithint=photo%2cjpg"
     },
     {
-        "title": "Deflect VI",
+        "title": "Deflect IV",
         "desc": "Day 066",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23465&authkey=!ANsS_h-I2-PHdLU&v=3&ithint=photo%2cjpg",
         "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23464&authkey=!AL8dB2ax1Bthabw&v=3&ithint=photo%2cjpg"

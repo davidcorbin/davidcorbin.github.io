@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "GRAD",
+        "desc": "Day 081",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23651&authkey=!ANOHbgOja8XRmgw&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23652&authkey=!AJCTsHHHCu8FYkg&v=3&ithint=photo%2cjpg"
+    },
+    {
         "title": "Undefined",
         "desc": "Day 080",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23644&authkey=!AFYKoQ3VNLsQDXs&v=3&ithint=photo%2cjpg",

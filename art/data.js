@@ -4,6 +4,12 @@
 
 var photos = [
     {
+        "title": "Stacks",
+        "desc": "Day 087",
+        "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23873&authkey=!AFSmqa7cDDp9bZE&v=3&ithint=photo%2cjpg",
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23874&authkey=!ANFLfwK1XnLN4mc&ithint=file%2cjpg"
+    },
+    {
         "title": "Black Sun II",
         "desc": "Day 086",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23866&authkey=!AO_zbNUBeYrQayY&v=3&ithint=photo%2cjpg",

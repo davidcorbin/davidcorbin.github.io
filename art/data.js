@@ -13,7 +13,7 @@ var photos = [
         "title": "Black Sun II",
         "desc": "Day 086",
         "src": "https://onedrive.live.com/download?resid=ADB77773C67D388!23866&authkey=!AO_zbNUBeYrQayY&v=3&ithint=photo%2cjpg",
-        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388!23817&authkey=!AP7P-3fL5ZHWeYQ&v=3&ithint=photo%2cjpg"
+        "tbn": "https://onedrive.live.com/download?resid=ADB77773C67D388%2123865&authkey=%21ABAqIFc45mizxss&v=3&ithint=photo%2cjpg"
     },
     {
         "title": "Black Sun",

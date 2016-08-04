@@ -6,19 +6,19 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://daconex.me/</loc>
+        <loc>https://davidcorbin.github.io/</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>https://daconex.me/audio</loc>
+        <loc>https://davidcorbin.github.io/audio</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>https://daconex.me/photo</loc>
+        <loc>https://davidcorbin.github.io/photo</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>https://daconex.me/art</loc>
+        <loc>https://davidcorbin.github.io/art</loc>
         <changefreq>always</changefreq>
     </url>
 

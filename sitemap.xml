@@ -6,19 +6,11 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://davidcorbin.github.io/</loc>
+        <loc>https://davidcorbin.me/</loc>
         <changefreq>always</changefreq>
     </url>
     <url>
-        <loc>https://davidcorbin.github.io/audio</loc>
-        <changefreq>always</changefreq>
-    </url>
-    <url>
-        <loc>https://davidcorbin.github.io/photo</loc>
-        <changefreq>always</changefreq>
-    </url>
-    <url>
-        <loc>https://davidcorbin.github.io/art</loc>
+        <loc>https://davidcorbin.me/art</loc>
         <changefreq>always</changefreq>
     </url>
 

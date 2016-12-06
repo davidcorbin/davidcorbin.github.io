@@ -9,7 +9,7 @@ body {
     background: #7cd3e6;
     background: -moz-linear-gradient(-45deg,  #7cd3e6 0%, #51b1d2 100%);
     background: -webkit-linear-gradient(-45deg,  #7cd3e6 0%,#51b1d2 100%);
-    background: linear-gradient(135deg,  #7cd3e6 0%,#51b1d2 100%);
+    background: linear-gradient(135deg,  #89eaff 0%,#49a0bd 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cd3e6', endColorstr='#51b1d2',GradientType=1 );
 
     height: 100vh;
@@ -93,7 +93,7 @@ body {
  * Hide dotted lines around buttons in Firefox
  */
 button::-moz-focus-inner {
-   border: 0;
+    border: 0;
 }
 
 .vis {
@@ -102,4 +102,13 @@ button::-moz-focus-inner {
     -o-transition: opacity 1s;
     transition: opacity 1s;
     opacity: 1;
+}
+
+@media only screen and (max-device-width:480px){
+    .intro-title {
+        font-size: 3em;
+    }
+    .intro-text {
+        font-size: 1.2em;
+    }
 }

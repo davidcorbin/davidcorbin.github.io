@@ -112,3 +112,12 @@ button::-moz-focus-inner {
         font-size: 1.2em;
     }
 }
+
+#canv {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer; 
+    pointer-events:none;
+}

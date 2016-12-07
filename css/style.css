@@ -24,6 +24,7 @@ body {
     font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-shadow: -4px 4px rgba(0,0,0,0.35);
     opacity: 0;
+    cursor: default;
 }
 
 .intro-text {
@@ -34,6 +35,7 @@ body {
     font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-shadow: -2px 2px rgba(0,0,0,0.35);
     opacity: 0;
+    cursor: default;
 }
 
 .intro-profile {

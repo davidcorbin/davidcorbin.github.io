@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     $( ".intro-profile, .intro-title, .intro-text, .social" ).addClass( "vis" );
+    $('img').on('dragstart', function(event) { event.preventDefault(); });
 });
 
 var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);

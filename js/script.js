@@ -1,18 +1,21 @@
 $( document ).ready(function() {
+    "use strict";
     $( ".intro-profile, .intro-title, .intro-text, .social" ).addClass( "vis" );
     $('img').on('dragstart', function(event) { event.preventDefault(); });
 });
 
-var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+var iOS = !!navigator.platform && (/iPad|iPhone|iPod/).test(navigator.platform);
 var ff = navigator.userAgent.indexOf('Firefox') > 0;
 var tap = ('ontouchstart' in window || navigator.msMaxTouchPoints) ? 'touchstart' : 'mousedown';
-if (iOS) document.body.classList.add('iOS');
+if (iOS) {document.body.classList.add('iOS');}
 
 var anim = (function() {
 
+    "use strict";
+
     var getFontSize = function() {
         return parseFloat(getComputedStyle(document.documentElement).fontSize);
-    }
+    };
 
     var canvas = document.querySelector('#canv');
     var ctx = canvas.getContext('2d');
@@ -25,12 +28,12 @@ var anim = (function() {
     var setCanvasSize = function() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-    }
+    };
 
     var updateCoords = function(e) {
         x = e.clientX || e.touches[0].clientX;
         y = e.clientY || e.touches[0].clientY;
-    }
+    };
 
     // Gray, green, blue, purple
     var colors = ['#bdc3c7', '#1abc9c', '#3498db', '#9b59b6'];
@@ -52,9 +55,9 @@ var anim = (function() {
             ctx.strokeStyle = p.color;
             ctx.stroke();
             ctx.globalAlpha = 1;
-        }
+        };
         return p;
-    }
+    };
 
     var createParticule = function(x, y) {
         var p = {};
@@ -67,9 +70,9 @@ var anim = (function() {
             ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true);
             ctx.fillStyle = p.color;
             ctx.fill();
-        }
+        };
         return p;
-    }
+    };
 
     var createParticles = function(x, y) {
         var particules = [];

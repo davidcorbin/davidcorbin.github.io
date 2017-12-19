@@ -48,8 +48,8 @@ body:not(.iOS) #lines * {
 }
 
 .intro-profile {
-    height: 200px;
-    width: 200px;
+    height: 125px;
+    width: 125px;
     margin: 0 auto;
     display: block;
     opacity: 0;

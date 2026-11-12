@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     "use strict";
-    $( ".intro-profile, .intro-title, .intro-text, .social, .software" ).addClass( "vis" );
+    $( ".intro-profile, .intro-title, .intro-text, .social" ).addClass( "vis" );
     $('img').on('dragstart', function(event) { event.preventDefault(); });
 });
 

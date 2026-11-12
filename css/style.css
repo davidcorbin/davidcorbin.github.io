@@ -92,6 +92,21 @@ body:not(.iOS) #lines * {
     opacity: 0;
 }
 
+.software {
+    margin-top: 0.75em;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+    opacity: 0;
+}
+
+.software a {
+    color: #fff;
+    text-shadow: -2px 2px rgba(0,0,0,0.35);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
